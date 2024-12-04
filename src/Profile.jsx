@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import DefaultProfile from "./DefaultProfile";
 import Spinach from "./Spinach";
 import Popeye from "./Popeye";
+import Oshinoko from "./Oshinoko";
 
 const Profile = () => {
   const { name } = useParams();
@@ -16,6 +17,8 @@ const Profile = () => {
         <Popeye />
       ) : name === "spinach" ? (
         <Spinach />
+      ) : name ==="oshinoko" ? (
+        <Oshinoko />
       ) : (
         <DefaultProfile />
       )}

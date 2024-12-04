@@ -1,5 +1,5 @@
 const DefaultProfile = () => {
-  return <p>Oh, nothing to see here!</p>;
+  return <p>Whoops! There is nothing here.</p>;
 };
 
 export default DefaultProfile;

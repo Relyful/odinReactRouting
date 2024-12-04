@@ -9,6 +9,7 @@ const App = () => {
         <ul>
           <li>
             <Link to="profile">Profile page</Link>
+            <Link to="altpage">Alternative page</Link>
           </li>
         </ul>
       </nav>
